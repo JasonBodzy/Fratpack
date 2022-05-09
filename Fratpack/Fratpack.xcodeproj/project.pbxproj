@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1B58D771D5E7497106316A /* Pods_Fratpack_FratpackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD4E7E7B068008A8ACE2FC0 /* Pods_Fratpack_FratpackUITests.framework */; };
 		15BBE27F2828BA520073D201 /* FratpackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BBE27E2828BA520073D201 /* FratpackApp.swift */; };
 		15BBE2812828BA520073D201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BBE2802828BA520073D201 /* ContentView.swift */; };
 		15BBE2832828BA540073D201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15BBE2822828BA540073D201 /* Assets.xcassets */; };
@@ -14,6 +15,11 @@
 		15BBE2902828BA550073D201 /* FratpackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BBE28F2828BA550073D201 /* FratpackTests.swift */; };
 		15BBE29A2828BA550073D201 /* FratpackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BBE2992828BA550073D201 /* FratpackUITests.swift */; };
 		15BBE29C2828BA550073D201 /* FratpackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BBE29B2828BA550073D201 /* FratpackUITestsLaunchTests.swift */; };
+		15E2314B2828BE4600ECA58D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E2314A2828BE4600ECA58D /* Launch Screen.storyboard */; };
+		15E2314D2828C5F600ECA58D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2314C2828C5F600ECA58D /* LoginView.swift */; };
+		15E2314F2828C60200ECA58D /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2314E2828C60200ECA58D /* CreateAccountView.swift */; };
+		6E62CB78ABF1FDB387B6C02F /* Pods_Fratpack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDD7FA15A689C57EA666BBC /* Pods_Fratpack.framework */; };
+		CA387BD81D409B93E2DE8CCB /* Pods_FratpackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD7E3C90B9FDD29FD2063BF /* Pods_FratpackTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064FE4098A569F70EDC91433 /* Pods-Fratpack-FratpackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fratpack-FratpackUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fratpack-FratpackUITests/Pods-Fratpack-FratpackUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		15BBE27B2828BA520073D201 /* Fratpack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fratpack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BBE27E2828BA520073D201 /* FratpackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FratpackApp.swift; sourceTree = "<group>"; };
 		15BBE2802828BA520073D201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,18 @@
 		15BBE2952828BA550073D201 /* FratpackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FratpackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BBE2992828BA550073D201 /* FratpackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FratpackUITests.swift; sourceTree = "<group>"; };
 		15BBE29B2828BA550073D201 /* FratpackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FratpackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15E231492828BD9C00ECA58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		15E2314A2828BE4600ECA58D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		15E2314C2828C5F600ECA58D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		15E2314E2828C60200ECA58D /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		312C68055C0A3C829918D138 /* Pods-Fratpack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fratpack.debug.xcconfig"; path = "Target Support Files/Pods-Fratpack/Pods-Fratpack.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD4E7E7B068008A8ACE2FC0 /* Pods_Fratpack_FratpackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fratpack_FratpackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51C4BCFEA1DED0DDE785D30B /* Pods-Fratpack-FratpackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fratpack-FratpackUITests.release.xcconfig"; path = "Target Support Files/Pods-Fratpack-FratpackUITests/Pods-Fratpack-FratpackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		745D1DA4DB413F30621DB49B /* Pods-FratpackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FratpackTests.debug.xcconfig"; path = "Target Support Files/Pods-FratpackTests/Pods-FratpackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD7E3C90B9FDD29FD2063BF /* Pods_FratpackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FratpackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEABAF1C01C75C92C7CB33F /* Pods-Fratpack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fratpack.release.xcconfig"; path = "Target Support Files/Pods-Fratpack/Pods-Fratpack.release.xcconfig"; sourceTree = "<group>"; };
+		BE0DD8EBE1995287ACB1B020 /* Pods-FratpackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FratpackTests.release.xcconfig"; path = "Target Support Files/Pods-FratpackTests/Pods-FratpackTests.release.xcconfig"; sourceTree = "<group>"; };
+		EDDD7FA15A689C57EA666BBC /* Pods_Fratpack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fratpack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E62CB78ABF1FDB387B6C02F /* Pods_Fratpack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA387BD81D409B93E2DE8CCB /* Pods_FratpackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C1B58D771D5E7497106316A /* Pods_Fratpack_FratpackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +96,13 @@
 		15BBE2722828BA520073D201 = {
 			isa = PBXGroup;
 			children = (
+				15E2314A2828BE4600ECA58D /* Launch Screen.storyboard */,
 				15BBE27D2828BA520073D201 /* Fratpack */,
 				15BBE28E2828BA550073D201 /* FratpackTests */,
 				15BBE2982828BA550073D201 /* FratpackUITests */,
 				15BBE27C2828BA520073D201 /* Products */,
+				28FCDC1D5DB92C14C01FFFA4 /* Pods */,
+				1CE4F1B9C7D3790A84544CD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +119,11 @@
 		15BBE27D2828BA520073D201 /* Fratpack */ = {
 			isa = PBXGroup;
 			children = (
+				15E231492828BD9C00ECA58D /* Info.plist */,
 				15BBE27E2828BA520073D201 /* FratpackApp.swift */,
 				15BBE2802828BA520073D201 /* ContentView.swift */,
+				15E2314C2828C5F600ECA58D /* LoginView.swift */,
+				15E2314E2828C60200ECA58D /* CreateAccountView.swift */,
 				15BBE2822828BA540073D201 /* Assets.xcassets */,
 				15BBE2842828BA540073D201 /* Preview Content */,
 			);
@@ -127,6 +155,29 @@
 			path = FratpackUITests;
 			sourceTree = "<group>";
 		};
+		1CE4F1B9C7D3790A84544CD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDD7FA15A689C57EA666BBC /* Pods_Fratpack.framework */,
+				3AD4E7E7B068008A8ACE2FC0 /* Pods_Fratpack_FratpackUITests.framework */,
+				ACD7E3C90B9FDD29FD2063BF /* Pods_FratpackTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28FCDC1D5DB92C14C01FFFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				312C68055C0A3C829918D138 /* Pods-Fratpack.debug.xcconfig */,
+				AFEABAF1C01C75C92C7CB33F /* Pods-Fratpack.release.xcconfig */,
+				064FE4098A569F70EDC91433 /* Pods-Fratpack-FratpackUITests.debug.xcconfig */,
+				51C4BCFEA1DED0DDE785D30B /* Pods-Fratpack-FratpackUITests.release.xcconfig */,
+				745D1DA4DB413F30621DB49B /* Pods-FratpackTests.debug.xcconfig */,
+				BE0DD8EBE1995287ACB1B020 /* Pods-FratpackTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15BBE29F2828BA550073D201 /* Build configuration list for PBXNativeTarget "Fratpack" */;
 			buildPhases = (
+				1BC744619ED8D4B3F72C5814 /* [CP] Check Pods Manifest.lock */,
 				15BBE2772828BA520073D201 /* Sources */,
 				15BBE2782828BA520073D201 /* Frameworks */,
 				15BBE2792828BA520073D201 /* Resources */,
+				088A0D0B4D2B094C8479C3AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15BBE2A22828BA550073D201 /* Build configuration list for PBXNativeTarget "FratpackTests" */;
 			buildPhases = (
+				27465486C1B2C09CEECC144D /* [CP] Check Pods Manifest.lock */,
 				15BBE2872828BA550073D201 /* Sources */,
 				15BBE2882828BA550073D201 /* Frameworks */,
 				15BBE2892828BA550073D201 /* Resources */,
@@ -169,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15BBE2A52828BA550073D201 /* Build configuration list for PBXNativeTarget "FratpackUITests" */;
 			buildPhases = (
+				2664879A7EB2E7664DDFAD8C /* [CP] Check Pods Manifest.lock */,
 				15BBE2912828BA550073D201 /* Sources */,
 				15BBE2922828BA550073D201 /* Frameworks */,
 				15BBE2932828BA550073D201 /* Resources */,
+				7FB2DDD6E46D4A09966EBB76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E2314B2828BE4600ECA58D /* Launch Screen.storyboard in Resources */,
 				15BBE2862828BA540073D201 /* Preview Assets.xcassets in Resources */,
 				15BBE2832828BA540073D201 /* Assets.xcassets in Resources */,
 			);
@@ -252,12 +309,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		088A0D0B4D2B094C8479C3AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fratpack/Pods-Fratpack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fratpack/Pods-Fratpack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fratpack/Pods-Fratpack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BC744619ED8D4B3F72C5814 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fratpack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2664879A7EB2E7664DDFAD8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fratpack-FratpackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27465486C1B2C09CEECC144D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FratpackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB2DDD6E46D4A09966EBB76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fratpack-FratpackUITests/Pods-Fratpack-FratpackUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fratpack-FratpackUITests/Pods-Fratpack-FratpackUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fratpack-FratpackUITests/Pods-Fratpack-FratpackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15BBE2772828BA520073D201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E2314D2828C5F600ECA58D /* LoginView.swift in Sources */,
 				15BBE2812828BA520073D201 /* ContentView.swift in Sources */,
+				15E2314F2828C60200ECA58D /* CreateAccountView.swift in Sources */,
 				15BBE27F2828BA520073D201 /* FratpackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +575,7 @@
 		};
 		15BBE2A02828BA550073D201 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312C68055C0A3C829918D138 /* Pods-Fratpack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,9 +585,9 @@
 				DEVELOPMENT_TEAM = F748U6T7V8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fratpack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -442,6 +605,7 @@
 		};
 		15BBE2A12828BA550073D201 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEABAF1C01C75C92C7CB33F /* Pods-Fratpack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,9 +615,9 @@
 				DEVELOPMENT_TEAM = F748U6T7V8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fratpack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +635,7 @@
 		};
 		15BBE2A32828BA550073D201 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745D1DA4DB413F30621DB49B /* Pods-FratpackTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +656,7 @@
 		};
 		15BBE2A42828BA550073D201 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0DD8EBE1995287ACB1B020 /* Pods-FratpackTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +677,7 @@
 		};
 		15BBE2A62828BA550073D201 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064FE4098A569F70EDC91433 /* Pods-Fratpack-FratpackUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +696,7 @@
 		};
 		15BBE2A72828BA550073D201 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C4BCFEA1DED0DDE785D30B /* Pods-Fratpack-FratpackUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

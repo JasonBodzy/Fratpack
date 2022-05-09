@@ -1,0 +1,6 @@
+framework module Pods_Fratpack_FratpackUITests {
+  umbrella header "Pods-Fratpack-FratpackUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
